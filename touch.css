@@ -7,3 +7,11 @@
 legend {
     text-decoration: underline;
 }
+.columns-align-bottom>div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.columns-align-bottom>div>div {
+    align-self: end;
+}
